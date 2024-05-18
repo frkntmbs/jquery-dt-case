@@ -1,0 +1,112 @@
+body {
+    background-color: #111827;
+    font-family: "Poppins", sans-serif;
+ }
+
+ .table-cover {
+    width: 100%;
+ }
+
+ #myTable {
+    color: #dddddd;
+    border-color: #27272A;
+    border-radius: 16px;
+    overflow: hidden;
+    font-weight: 300;
+ }
+
+#myTable th {
+    color: #fff;
+    background-color: #27272A;
+    font-weight: 500;
+}
+
+#myTable tr:nth-child(even) {
+    background-color: #1F2937;
+}
+
+.table-top {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+} 
+
+.table-top .dt-search {
+    display: flex;
+    align-items: center;
+}
+
+.table-top .dt-search input {
+    background-color: #374151;
+    color: #9ca3af;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 12px;
+    font-weight: 300;
+}
+
+.table-top .dt-search input::placeholder {
+    color: #9ca3af;
+}
+
+.table-top .dt-length label{
+    display: none;
+}
+
+.table-top .dt-length select {
+    background-color: #374151;
+    color: #9ca3af;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    font-weight: 300;
+}
+
+.table-bottom {
+    color: #9ca3af;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.table-bottom .dt-paging {
+    display: flex;
+    gap: 10px;
+}
+
+.table-bottom .dt-paging button {
+    background-color: #374151;
+    color: #9ca3af;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 12px;
+    font-weight: 300;
+    transition: all 0.5s;
+}
+
+.table-bottom .dt-paging button.current, .table-bottom .dt-paging button:hover {
+    background-color: #4F46E5;
+    color: #fff;
+}
+
+.table-bottom .dt-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.table-bottom .dt-buttons button {
+    background-color: #374151;
+    color: #9ca3af;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 12px;
+    font-weight: 300;
+    transition: all 0.5s;
+}
+
+.table-bottom .dt-buttons button:hover {
+    background-color: #4F46E5;
+    color: #fff;
+}
